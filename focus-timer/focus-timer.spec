@@ -19,8 +19,15 @@ BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
-BuildRequires:  pkgconfig(libpeas-1.0)
 BuildRequires:  pkgconfig(gom-1.0)
+BuildRequires:  pkgconfig(libadwaita-1)
+BuildRequires:  pkgconfig(libpeas-2.0)
+BuildRequires:  pkgconfig(graphene-gobject-1.0)
+BuildRequires:  pkgconfig(gstreamer-1.0)
+BuildRequires:  pkgconfig(gstreamer-controller-1.0)
+BuildRequires:  pkgconfig(json-glib-1.0)
+BuildRequires:  pkgconfig(sqlite3)
+BuildRequires:  pkgconfig(cairo)
 
 # Main binary requires the data files
 Requires:       %{name}-data = %{version}-%{release}
