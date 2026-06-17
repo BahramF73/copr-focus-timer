@@ -16,7 +16,7 @@ BuildRequires:  libappstream-glib
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-2.0)
 BuildRequires:  pkgconfig(gio-2.0)
-BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(libpeas-1.0)
