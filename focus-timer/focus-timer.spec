@@ -5,7 +5,7 @@ Summary:        A time management utility based on the Pomodoro Technique
 
 License:        GPLv3+
 URL:            https://github.com/focustimerhq/FocusTimer
-Source0:        https://github.com%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/focustimerhq/FocusTimer/archive/%{version}.tar.gz
 
 BuildRequires:  meson
 BuildRequires:  ninja-build
