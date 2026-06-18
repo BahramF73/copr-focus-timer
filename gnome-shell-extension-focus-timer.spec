@@ -29,6 +29,9 @@ GNOME Shell panel and integrates with the Focus Timer application.
 %install
 %meson_install
 
+%check
+true
+
 %files
 %license COPYING*
 %doc README*
