@@ -13,6 +13,8 @@ BuildRequires:  gcc
 BuildRequires:  vala
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
+BuildRequires:  libpeas
+BuildRequires:  libpeas-devel
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-2.0)
 BuildRequires:  pkgconfig(gio-2.0)
@@ -21,8 +23,6 @@ BuildRequires:  pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gom-1.0)
 BuildRequires:  pkgconfig(libadwaita-1)
-BuildRequires:  pkgconfig(libpeas)
-BuildRequires:  pkgconfig(libpeas-devel)
 BuildRequires:  pkgconfig(graphene-gobject-1.0)
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-controller-1.0)
