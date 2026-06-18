@@ -13,6 +13,8 @@ BuildRequires: gcc
 BuildRequires:  meson
 BuildRequires:  ninja-build
 BuildRequires:  gettext
+BuildRequires:  glib2-devel
+BuildRequires:  pkgconfig(gio-2.0)
 
 Requires:       gnome-shell
 
