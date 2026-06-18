@@ -9,6 +9,7 @@ Source0:        %{url}/archive/refs/tags/%{version}.tar.gz
 
 BuildArch:      noarch
 
+BuildRequires: gcc
 BuildRequires:  meson
 BuildRequires:  ninja-build
 BuildRequires:  gettext
