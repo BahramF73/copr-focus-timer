@@ -40,6 +40,7 @@ true
 %doc README*
 %{_datadir}/gnome-shell/extensions/focus-timer@focustimerhq.github.io/
 %{_datadir}/glib-2.0/schemas/org.gnome.shell.extensions.focus-timer.gschema.xml
+%{_datadir}/locale/*/LC_MESSAGES/gnome-shell-extension-focus-timer.mo
 
 %changelog
 * Thu Jun 18 2026 Bahram Farahmand <bahram.0098.bf@gmail.com> - 2-1
