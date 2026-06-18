@@ -75,6 +75,7 @@ appstream-util validate-relax %{buildroot}%{_metainfodir}/*.xml || :
 %{_datadir}/dbus-1/services/*.service
 %{_datadir}/focus-timer/
 %{_metainfodir}/*.xml
+%{_datadir}/knotifications6/io.github.focustimerhq.FocusTimer.notifyrc
 
 %changelog
 
