@@ -78,7 +78,5 @@ appstream-util validate-relax %{buildroot}%{_metainfodir}/*.xml || :
 %{_datadir}/knotifications6/io.github.focustimerhq.FocusTimer.notifyrc
 
 %changelog
-
-* Thu Jun 18 2026 Package Maintainer <bahram.0098.bf@gmail.com> - 1.1.2-1
-
+* Thu Jun 18 2026 Bahram Farahmand <bahram.0098.bf@gmail.com> - 1.1.2-1
 - Initial package
