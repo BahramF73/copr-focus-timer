@@ -9,7 +9,7 @@ Source0:        %{url}/archive/refs/tags/%{version}.tar.gz
 
 BuildArch:      noarch
 
-BuildRequires: gcc
+BuildRequires:  gcc
 BuildRequires:  meson
 BuildRequires:  ninja-build
 BuildRequires:  gettext
@@ -39,6 +39,7 @@ true
 %license COPYING*
 %doc README*
 %{_datadir}/gnome-shell/extensions/focus-timer@focustimerhq.github.io/
+%{_datadir}/glib-2.0/schemas/org.gnome.shell.extensions.focus-timer.gschema.xml
 
 %changelog
 * Thu Jun 18 2026 Bahram Farahmand <bahram.0098.bf@gmail.com> - 2-1
