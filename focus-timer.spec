@@ -1,5 +1,5 @@
 Name:           focus-timer
-Version:        1.1.2
+Version:        1.1.3
 Release:        1%{?dist}
 Summary:        A time management utility based on the Pomodoro Technique
 
