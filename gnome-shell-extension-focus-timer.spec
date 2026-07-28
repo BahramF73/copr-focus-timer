@@ -1,5 +1,5 @@
 Name:           gnome-shell-extension-focus-timer
-Version:        2
+Version:        3
 Release:        1%{?dist}
 Summary:        GNOME Shell extension for Focus Timer
 
